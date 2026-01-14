@@ -8,8 +8,27 @@ module Crystal::Enet
 
   def some
     puts LibENet::B + LibENet::A
-    puts LibENet::HELLO
+  end
+
+  def cyclic?
+    puts Ahaha::WHATSUP
   end
 end
 
 Crystal::Enet.some()
+
+module Ahaha
+  extend self
+
+  WHATSUP = true
+
+  def phph
+    puts Crystal::Enet::VERSION
+  end
+
+end
+
+
+Ahaha.phph()
+
+Crystal::Enet.cyclic?
