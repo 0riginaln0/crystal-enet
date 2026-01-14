@@ -8,5 +8,8 @@ module Crystal::Enet
 
   def some
     puts LibENet::B + LibENet::A
+    puts LibENet::HELLO
   end
 end
+
+Crystal::Enet.some()
