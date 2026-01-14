@@ -1,0 +1,9 @@
+name: crystal-enet
+version: 0.1.0
+
+authors:
+  - Ryzh <gooddmitriy@mail.ru>
+
+crystal: '>= 1.18.2'
+
+license: MIT
