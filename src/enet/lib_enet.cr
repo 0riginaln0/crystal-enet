@@ -1,7 +1,8 @@
 @[Link("enet")]
 
-require "./enet/types"
+require "./types"
 # And require other files in future
+# The main file where all others binding files are required in.
 
 lib LibENet
   # Data Structures

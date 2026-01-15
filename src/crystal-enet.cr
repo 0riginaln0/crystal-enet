@@ -1,4 +1,6 @@
-require "./libenet"
+require "./enet/lib_enet"
+
+# Some abstractions to work with ease with lib_enet
 
 module Crystal::Enet
   extend self
