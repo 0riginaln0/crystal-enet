@@ -4,10 +4,18 @@ ENet's purpose is to provide a relatively thin, simple and robust network commun
 
 See Enet's documentation here: http://enet.bespin.org/index.html
 
+## Installation
+
+### Windows
+
+- Download the latest ENet binary from the [release page](https://github.com/lsalzman/enet/tags).
+- For 64-bit systems, rename `enet64.lib` to `enet.lib`
+- Place `enet.lib` in your Crystal library path (check with `crystal env CRYSTAL_LIBRARY_PATH`)
+
 ## Dependencies
 
-  - libenet
-  - pkg-config
+- libenet
+- pkg-config
 
 ### Install dependencies on Debian
 
@@ -19,5 +27,5 @@ See Enet's documentation here: http://enet.bespin.org/index.html
 
 ## Run samples
 
-  - `crystal samples/server.cr`
-  - `crystal samples/client localhost:42042`
+- `crystal samples/server.cr`
+- `crystal samples/client localhost:42042`

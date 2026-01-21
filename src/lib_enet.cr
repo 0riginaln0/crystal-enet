@@ -1,4 +1,8 @@
 @[Link("enet")]
+{% if flag?(:win32) %}
+  @[Link("winmm")]
+  @[Link("ws2_32")]
+{% end %}
 lib LibEnet
   # Configuration constants
   HOST_RECEIVE_BUFFER_SIZE          = 256 * 1024
